@@ -1,0 +1,85 @@
+@font-face {
+    font-family: sicret_PERSONAL;
+    src: url("/sicret/Sicret_PERSONAL-Medium.ttf");
+}
+
+.heading{
+    font-family: sicret_PERSONAL;
+    font-size: 3rem;
+    padding:15px;
+    text-align:center;
+    color: #242424;
+    background-color: rgb(159, 175, 243);
+
+}
+
+.cookies{
+    background-color: rgb(102, 127, 235);
+    color: #ffffff;
+    font-family: Roboto;
+    font-weight: lighter;
+    font-size: 1rem;
+    text-align: center;
+    margin-right: 0px;
+    border: none;
+
+}
+.cancel{
+    font-family: Roboto;
+    font-weight: lighter;
+    font-size: 1rem;
+    text-align:right;
+    color: #ffffff;
+    background-color: rgb(160, 177, 255);
+    border: none;
+}
+
+.page_footer{
+    background-color: rgba(171, 179, 250, 0.76);
+    font-family: Roboto;
+    font-weight: light;
+    font-size: 1rem;
+    padding: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.to-do{
+    background-color: rgb(235, 228, 228);
+     border-radius: 25px;
+     padding: 22px;
+     margin: 25px;
+     font-size: 1rem;
+     font-family: Roboto;
+}
+
+.to-do-new{
+    color: rgb(165, 165, 165);
+    text-align: center;
+}
+
+.to-do-doing{
+    display: flex;
+    gap: 10px;
+}
+
+
+.to-do-done{
+    display: flex;
+    gap: 10px;
+    text-decoration: line-through;
+}
+
+body{
+    margin: 0px;
+}
+
+.check{
+    border-radius: 50%;
+    padding: 15px;
+    font-family: Roboto;
+    font-weight: lighter;
+}
